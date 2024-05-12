@@ -1,5 +1,5 @@
 #!/bin/bash
-# use su - otheruser the "-" created a login shel
+# use su - otheruser the "-" created a login shellll
 # say hello to the user the moment a new user is reated
 echo "Hello $USER"
 
@@ -39,3 +39,4 @@ fi
 fuser -k 8080/tcp > /dev/null 2>/dev/null
 
 #exit 0
+# your solution here...
